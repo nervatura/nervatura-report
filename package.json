@@ -1,0 +1,46 @@
+{
+  "name": "nervatura-report",
+  "version": "1.0.0",
+  "description": "Nervatura Report",
+  "keywords": [
+    "business management",
+    "jspdf",
+    "pdfkit",
+    "pdf",
+    "pdf writer",
+    "pdf generator",
+    "PDF reporting"
+  ],
+  "author": "Csaba Kappel <kappel.csaba@gmail.com> (http://nervatura.com)",
+  "license": "LGPL-3.0",
+  "homepage": "http://nervatura.com",
+  "main": "dist/report.node.js",
+  "module": "dist/report.module.js",
+  "browser": "dist/report.browser.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.3.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.3.1",
+    "jspdf": "^1.5.3",
+    "pdfkit": "^0.9.0",
+    "pdfjs-dist": "^2.0.943",
+    "rollup": "^1.0.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "^4.0.4",
+    "xmldom": "^0.1.27"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ]
+}
