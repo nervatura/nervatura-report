@@ -1,6 +1,6 @@
 {
   "name": "nervatura-report",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nervatura Report",
   "keywords": [
     "business management",
@@ -41,6 +41,7 @@
     "pretest": "npm run build"
   },
   "files": [
-    "dist"
+    "dist",
+    "fonts"
   ]
 }
