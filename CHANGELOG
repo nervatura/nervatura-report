@@ -1,0 +1,8 @@
+## 1.0.2
+- pdfkit fromHTML bug fixes
+
+## 1.0.1
+- package.json fonts dir deploy
+
+## 1.0.0
+- initial commit

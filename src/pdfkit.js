@@ -216,12 +216,13 @@ export default class KitDocument {
 
   fromHTML(HTML, x, y, settings, callback, margins) {
     let doc = new DOMParser().parseFromString(HTML, "text/html");
-    let txt = "\n"
-    for (let index = 0; index < doc.childNodes.length; index++) {
-      const element = doc.childNodes[index];
-      txt += String(element.textContent).trim()+"\n"
-    }
-    this.text(txt, x, y, { width: settings.width });
+    if(doc){
+      let txt = "\n";
+      for (let index = 0; index < doc.childNodes.length; index++) {
+        const element = doc.childNodes[index];
+        txt += String(element.textContent).trim()+"\n";
+      }
+      this.text(txt, x, y, { width: settings.width });}
     callback({ y: this.pdf.y })
   }
 
