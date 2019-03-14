@@ -18,7 +18,7 @@ Client/server side JavaScript PDF generation library for Node and the browser.
       cd nervatura-report
       npm install
 
-  and open the *test/browser.test.html*
+  and open the *[test/browser.test.html](https://github.com/nervatura/nervatura-report/tree/master/src)*
 
 * ***Client side ES module (Angular/Webpack/React/etc.)***
 
@@ -44,7 +44,7 @@ Client/server side JavaScript PDF generation library for Node and the browser.
       rpt.createReport();
       rpt.save2PdfFile("pdf_path/sample.pdf")
 
-  See example: *test/node.test.js* or *[nervatura-express](https://github.com/nervatura/nervatura-express)*
+  See example: *[test/node.test.js](https://github.com/nervatura/nervatura-report/tree/master/src)* or *[nervatura-express](https://github.com/nervatura/nervatura-express)*
 
 ### Docs & Community
 
