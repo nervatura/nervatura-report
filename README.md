@@ -24,7 +24,7 @@ Client/server side JavaScript PDF generation library for Node and the browser.
 
   **npm install --save nervatura-report jspdf**
 
-      import Report from 'nervatura-report/report.module'
+      import Report from 'nervatura-report/dist/report.module'
 
       let rpt = new Report();
       rpt.loadJsonDefinition('json_template');
@@ -37,7 +37,7 @@ Client/server side JavaScript PDF generation library for Node and the browser.
 
   **npm install --save nervatura-report pdfkit xmldom**
 
-      import Report from 'nervatura-report/report.node'
+      import Report from 'nervatura-report/dist/report.node'
 
       let rpt = new Report("landscape");
       rpt.loadDefinition('xml_template');

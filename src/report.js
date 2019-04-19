@@ -957,8 +957,8 @@ export default class NtReport {
       //check fonts
       case "font-family":
         value = this[_getValue](value,null);
-        if (value!=="times" || value!=="helvetica" || value!=="courier") {
-          value = "times";}
+        //if (value!=="times" && value!=="helvetica" && value!=="courier") {
+        //  value = "times";}
         return value;
         
       //check font-style
