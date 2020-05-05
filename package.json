@@ -1,6 +1,6 @@
 {
   "name": "nervatura-report",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Nervatura Report",
   "keywords": [
     "business management",
@@ -27,19 +27,19 @@
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-jest": "^24.8.0",
+    "babel-jest": "^26.0.1",
     "babel-preset-env": "^1.7.0",
-    "jest": "^24.8.0",
+    "jest": "^26.0.1",
     "jspdf": "^1.5.3",
-    "pdfjs-dist": "^2.1.266",
-    "pdfkit": "^0.10.0",
-    "rollup": "^1.17.0",
-    "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-commonjs": "^10.0.1",
+    "pdfjs-dist": "^2.3.200",
+    "pdfkit": "^0.11.0",
+    "rollup": "^2.7.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-terser": "^5.1.1",
-    "xmldom": "^0.1.27"
+    "rollup-plugin-terser": "^5.3.0",
+    "xmldom": "^0.3.0"
   },
   "scripts": {
     "build": "rollup -c",
